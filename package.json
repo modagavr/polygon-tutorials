@@ -22,6 +22,8 @@
     "ethers": "^5.5.4",
     "hardhat": "^2.8.4",
     "hardhat-gas-reporter": "^1.0.8",
+    "keccak256": "^1.0.6",
+    "merkletreejs": "^0.2.31",
     "prettier": "^2.5.1",
     "solhint": "^3.3.7",
     "solidity-coverage": "^0.7.20",
