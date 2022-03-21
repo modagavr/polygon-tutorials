@@ -48,7 +48,8 @@ async function main() {
 
   await run('verify:verify', {
     address: airdrop.address,
-    contract: 'contracts/nft-airdrop/Airdrop.sol:Airdrop'
+    contract: 'contracts/nft-airdrop/Airdrop.sol:Airdrop',
+    constructorArguments: [token.address, root]
   })
 }
 
